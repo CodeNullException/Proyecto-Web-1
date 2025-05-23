@@ -1,3 +1,21 @@
+button{
+  color: white;    
+  font-weight: bolder;  /*Ideal para poner texto EN NEGRITA*/
+  background: #363637; /*Color en codigo HEXADECIMAL*/
+  width: 80px; 
+  height: 40px;
+  
+  border-top: 3px solid #5e5c5c;  /*Borde arriba 3 px de ancho, color solido, color hexadecimal 5e5c5c*/
+  border-left: 3px solid #5e5c5c; /*Borde izquierda 3 px de ancho, color solido, color hexadecimal 5e5c5c*/
+  
+  border-right: 4px solid black;  /*borde derecha*/
+  border-bottom: 4px solid black; /*borde abajo*/
+
+}
+
+button:active { /*Cuando Clickeo mi boton cambia a color 555555*/
+  background-color: #555555;
+}
 p{
   color: blue;
 }
