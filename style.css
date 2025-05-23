@@ -16,8 +16,11 @@ button{
 }
 
 div{
-  display: flex;
-  justify-content: center;
+  margin: 0;                 /* Quitar márgenes por defecto */
+  height: 100vh;             /* Altura de toda la ventana */
+  display: flex;             /* Activar Flexbox */
+  justify-content: center;   /* Centrar horizontalmente */
+  align-items: center;       /* Centrar verticalmente */
 }
 
 button:active { /*Cuando Clickeo mi boton cambia a color 555555*/
