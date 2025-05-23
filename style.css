@@ -27,5 +27,6 @@ button:active { /*Cuando Clickeo mi boton cambia a color 555555*/
   background-color: #555555;
 }
 p{
-  color: rgb(66, 66, 92);
+  font-weight: bolder;
+  color: rgb(40, 55, 71);
 }
