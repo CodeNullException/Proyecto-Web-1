@@ -13,6 +13,11 @@ button{
 
 }
 
+div{
+  display: flex;
+  justify-content: center;
+}
+
 button:active { /*Cuando Clickeo mi boton cambia a color 555555*/
   background-color: #555555;
 }
